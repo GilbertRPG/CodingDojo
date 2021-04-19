@@ -36,3 +36,14 @@ def a(b,c):
     return str(b)+str(c)
 print(a(2,5))
 
+#8 returns 100, 10
+def a():
+    b = 100
+    print(b)
+    if b < 10:
+        return 5
+    else:
+        return 10
+    return 7
+print(a())
+
