@@ -58,3 +58,9 @@ print(a(2,3))
 print(a(5,3))
 print(a(2,3) + a(5,3))
 
+#10 returns 8
+def a(b,c):
+    return b+c
+    return 10
+print(a(3,5))
+
