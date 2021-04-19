@@ -1,4 +1,2 @@
-x = "Hello Python"
-print(x)
-y = 42
-print(y)
+# 1. TASK: print "Hello World"
+print("Hello World")
