@@ -27,3 +27,12 @@ for x in range(1, 101):
     else:
         print(x)
 
+# Whoa. That Sucker's Huge - Add odd integers from 0 to 500,000, and print the final sum.
+
+x = 1
+total = 0
+while x < 500000:
+    total = total + x
+    x = x + 2
+print(total)
+
