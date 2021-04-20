@@ -54,3 +54,23 @@ def thisLengthThatValue(value1, value2):
 
 print(thisLengthThatValue(4, 7))
 
+# Values Greater than Second (Optional) - Write a function that accepts a list and creates
+# a new list containing only the values from the original list that are greater than its
+# 2nd value. Print how many values this is and then return the new list. If the list has
+# less than 2 elements, have the function return False
+# 
+# Example: values_greater_than_second([5,2,3,2,1,4]) should print 3 and return [5,3,4]
+# Example: values_greater_than_second([3]) should return False
+print("Vaules Greater Than Second")
+def valueGreaterThanSecond(numbers):
+    output = []
+    if len(numbers) < 2:
+        return False
+    secondNumber = numbers[1]
+    for i in numbers:
+        if i > secondNumber:
+            output.append(i)
+    print(len(output))
+    return output
+
+print(valueGreaterThanSecond(getList()))
