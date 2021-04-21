@@ -15,3 +15,23 @@ def bigNumber (numbers):
     return big
 
 print(bigNumber([-1,3,4,-5]))
+
+# Count Positives - Given a list of numbers, create a function to replace the last value 
+# with the number of positive values. (Note that zero is not considered to be a 
+# positive number).
+# Example: count_positives([-1,1,1,1]) changes the original list to [-1,1,1,3] and 
+# returns it
+# Example: count_positives([1,6,-4,-2,-7,-2]) changes the list to [1,6,-4,-2,-7,2] 
+# and returns it
+
+print("Count Positives")
+# we're going to compare if the current number is higher than 0, and if so, add it to a "counter" table to hold the data.
+def replacePositives (numbers):
+    counter = 0
+    for i in numbers:
+        if i >= 0:
+            counter += 1
+    numbers[len(numbers) - 1] = counter # this gets you the last vaule of the list
+    return numbers
+
+print(replacePositives([-3,5,6,3,-6,-3,9]))
