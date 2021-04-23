@@ -8,7 +8,6 @@ def getList():
 
 print("Countdown")
 def totalList(myNumber):
-    
     list = []
     while myNumber > 0:
         list.append(myNumber)

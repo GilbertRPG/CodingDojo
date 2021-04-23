@@ -35,3 +35,15 @@ def replacePositives (numbers):
     return numbers
 
 print(replacePositives([-3,5,6,3,-6,-3,9]))
+
+print("Sum Total")
+# Sum Total - Create a function that takes a list and returns the sum of all the values in 
+# the array.
+# Example: sum_total([1,2,3,4]) should return 10
+# Example: sum_total([6,3,-2]) should return 7
+
+def totalSum(numbers):
+    
+    return numbers
+
+print(totalSum([1,2,3,4]))
