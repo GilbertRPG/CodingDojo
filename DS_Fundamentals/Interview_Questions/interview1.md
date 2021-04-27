@@ -28,27 +28,31 @@ print (arr[-1]) # this would print 5
 
 8: Pop will remove an item at an index location and return the item. If no location is provided, it will pop the end of a list.
 
-9:  >>> list = [1, 2, 3, 4, 5]
-    >>> print("The original list : " + str(list))
+9: Given a list, how would you access the last 3 items in that list?
+```python
+    list = [1, 2, 3, 4, 5]
+    print("The original list : " + str(list))
     The original list : [1, 2, 3, 4, 5]
-    >>> n = 3
-    >>> new_list = list[-n:]
-    >>> print("The last n of vaules in this list is : " + str(new_list))
+    n = 3
+    new_list = list[-n:]
+    print("The last n of vaules in this list is : " + str(new_list))
     The last n of vaules in this list is : [3, 4, 5]
 
-    # A shorthand version which does the same exact thing if our N doesn't change.
+    A shorthand version which does the same exact thing if our N doesn't change.
     list = [1, 2, 3, 4, 5]
     print(list[-3:])
+```
 
 Here we're creating a list, passing it our vaules, and printing it. After doing so, we know we need to find the last 3 vaules, so we do this by identifying n. Creating a new list, which looks at the negative vaule of n, will allow us to look from the last 3 vaules on our list, regardless of size.
 
 10: Enumerate returns a tuple containing a count for every iteration and the vaule obtained from it when iterating over. An example of this would be:
+```python
+randomWords = ['cool', 'beans', 'apples', 'tacos']
+for index, words in enumerate(randomWords):
+print(index, words)
 
->>> randomWords = ['cool', 'beans', 'apples', 'tacos']
->>> for index, words in enumerate(randomWords):
-...     print(index, words)
-...
 0 cool
 1 beans
 2 apples
 3 tacos
+```
