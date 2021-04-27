@@ -1,13 +1,13 @@
-What is the difference between a list and a tuple in Python?
-Is indentation required in Python?
-What is a comment in Python and how would you write one?
-What is a dictionary in Python?
-How would you convert a string to all uppercase letters?
-What are negative indices and why are they used?
-How would you reference a specific item within a Python dictionary?
-What does the .pop() method do to a list?
-Given a list, how would you access the last 3 items in that list?
-What is the enumerate function and why is it used?
+1. What is the difference between a list and a tuple in Python?
+2. Is indentation required in Python?
+3. What is a comment in Python and how would you write one?
+4. What is a dictionary in Python?
+5. How would you convert a string to all uppercase letters?
+6. What are negative indices and why are they used?
+7. How would you reference a specific item within a Python dictionary?
+8. What does the .pop() method do to a list?
+9. Given a list, how would you access the last 3 items in that list?
+10. What is the enumerate function and why is it used?
 
 1: A list is mutable, and can be used to hold different data types.
 A tuple, although still holding different data types, is immutable, and cannot be changed. The benefit here, is that tuples are faster at calculations than lists, especially for iterating through a defined list.
